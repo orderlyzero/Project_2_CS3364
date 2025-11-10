@@ -1,10 +1,4 @@
 class Graph:
-    """
-    Abstract Data Type (ADT) for Graph with topological ordering capabilities.
-    This implementation uses an adjacency list representation and can be extended
-    with additional algorithms (BFS, DFS traversal, etc.) in the future.
-    """
-    
     def __init__(self):
         """Initialize an empty graph."""
         self.adjacency_list = {}
@@ -22,10 +16,7 @@ class Graph:
     def add_edge(self, from_vertex, to_vertex):
         """
         Add a directed edge from from_vertex to to_vertex.
-        
-        Args:
-            from_vertex: The source vertex
-            to_vertex: The destination vertex
+
         """
         if from_vertex not in self.adjacency_list:
             self.add_vertex(from_vertex)
@@ -167,7 +158,8 @@ def build_cs_major_graph():
 
 def test_graph_adt():
     """
-    Test the Graph ADT with various scenarios.
+    THIS IS ONLY TO TEST THE GRAPH ADT WITH VARIOUS SENARIOS.
+    THIS WONT BE USED IN THE FINAL PROJECT
     """
     print("\n" + "="*80)
     print("TESTING GRAPH ADT - TOPOLOGICAL SORT")
@@ -228,7 +220,7 @@ def main():
     print("Topological Ordering of Computer Science Major Courses")
     print("="*80)
     
-    # Run tests first
+    # Run tests first (YOU CAN REMOVE THIS WHEN YOU RUN THIS GUYS - BRANDON)
     test_graph_adt()
     
     # Build the CS major course graph
