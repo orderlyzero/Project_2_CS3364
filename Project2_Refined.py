@@ -159,7 +159,8 @@ def build_cs_major_graph():
 def test_graph_adt():
     """
     THIS IS ONLY TO TEST THE GRAPH ADT WITH VARIOUS SENARIOS.
-    THIS WONT BE USED IN THE FINAL PROJECT
+    THIS WONT BE USED IN THE FINAL PROJECT.
+    Also Claude.ai helped with creating this test for the graphs
     """
     print("\n" + "="*80)
     print("TESTING GRAPH ADT - TOPOLOGICAL SORT")
@@ -251,3 +252,4 @@ def main():
 # Execute the program
 if __name__ == "__main__":
     main()
+
